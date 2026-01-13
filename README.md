@@ -9,6 +9,7 @@
 - **Token Refresh**
 - **Get Current User** (`/api/auth/me`)
 - **Forgot & Reset Password**
+- **Change Password after logging in**
 
 ---
 
@@ -221,6 +222,27 @@ db.users.insertOne({
 - **Description:** Resets the user's password using the provided reset token ( for now it will be displayed in the console, copy that and paste here).
 
 ---
+
+### 🔐 **Change Password**
+
+* **Endpoint:** `PUT /api/auth/change-password`
+* **Headers:**
+
+  ```
+  Authorization: Bearer <ACCESS_TOKEN>
+  ```
+* **Body:**
+
+  ```json
+  {
+    "currentPassword": "OldPassword@123",
+    "newPassword": "NewStrongPassword@123"
+  }
+  ```
+* **Description:** Allows the authenticated user to change their own password by providing the current password.
+
+---
+
 
 ## ⚠️ Important Notes
 
