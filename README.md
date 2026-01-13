@@ -2,32 +2,19 @@
 
 ---
 
-## 🚀 Features
+##  Features
 
-- 🔐 **JWT Authentication** (Access & Refresh Tokens)
-- 🔑 **Login / Logout**
-- 🔄 **Token Refresh**
-- 👤 **Get Current User** (`/api/auth/me`)
-- 🔓 **Forgot & Reset Password**
-- 💻 **Session Management** (multi-device support)
-- 🏗️ **TypeScript + Express + MongoDB** stack
+- **JWT Authentication** (Access & Refresh Tokens)
+- **Login / Logout**
+- **Token Refresh**
+- **Get Current User** (`/api/auth/me`)
+- **Forgot & Reset Password**
 
 ---
-
-## 🧰 Tech Stack
-
-- **Node.js** (v18+)
-- **Express.js**
-- **TypeScript**
-- **MongoDB** (Mongoose ODM)
-- **JSON Web Tokens (JWT)**
-
----
-
 
 ## ⚙️ Prerequisites
 
-- **Node.js** (v18 or higher)
+- **Node.js** (v18 or higher) for typescript
 - **MongoDB** (local installation or MongoDB Atlas)
 - **Postman** or similar API testing tool
 
@@ -42,9 +29,6 @@ cd intern-management-backend
 ```
 
 ### 2️⃣ Install Dependencies
-```bash
-npm install
-```
 
 ### 3️⃣ Configure Environment Variables
 Create a `.env` file in the root directory:
